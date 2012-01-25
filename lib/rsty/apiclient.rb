@@ -36,9 +36,9 @@ end
 class ApiClient
 
   def initialize(config,mediaType = MediaTypeJson.new)
-    @base_url = config[:base_url] #'http://localhost:8080/b4f-client-rest-api/api/external/v2.0'
-    @user = config[:user] #'userapiat@b4f.de'
-    @password = config[:password] # 'user'
+    @base_url = config[:base_url]
+    @user = config[:user]
+    @password = config[:password]
 
     @mediaType = mediaType
     @base_params =  {:api_key => 12}
