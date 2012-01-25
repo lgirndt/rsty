@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   
   s.add_dependency 'json', '~> 1.6.5'
   s.add_dependency 'rest-client', '~> 1.6.7'
+  s.add_dependency 'colorize', '~> 0.5.8'
     
   s.files = Dir['lib/**/*.rb'] +  Dir['bin/*'] + Dir['data/**/*']
   s.executables = ['rsty']  
