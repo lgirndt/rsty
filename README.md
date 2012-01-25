@@ -1,7 +1,8 @@
 # rsty
 
-## Overview
 rsty is a simple rest client I use to test our API from the command line.
+
+## Overview
 
 Therefore it is intended to provide a simplified access to a Rest API on a
 distinct host. You simply configure the base parameter to access this API
