@@ -1,10 +1,11 @@
 # rsty
 
-rsty is simple rest client I use to test our API from the command line.
+## Overview
+rsty is a simple rest client I use to test our API from the command line.
 
 Therefore it is intended to provide a simplified access to a Rest API on a
 distinct host. You simply configure the base parameter to access this API
-in the config file
+in the config file rsty.json
 
 <pre>
 	{
@@ -27,4 +28,15 @@ parameters and query parameters transparently.
 
 <pre>
 rsty POST /book orderId=345 customer=me
+</pre>
+
+## Installation
+
+rsty requires ruby 1.9.3
+
+Then install locally with
+<pre>
+cd rsty
+bundle install
+rake install	
 </pre>
