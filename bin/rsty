@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rsty'
+
+cli = Rsty::Cli.new
+cli.exec(ARGV)
