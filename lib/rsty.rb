@@ -3,8 +3,8 @@ module Rsty
   autoload :Cli,      'rsty/cli'
   
   autoload :ApiClient,      'rsty/apiclient'
-  autoload :MediaTypeJson,  'rsty/apiclient'
-  autoload :MediaTypeXml,   'rsty/apiclient'
+  autoload :MediaTypeJson,  'rsty/mediatype'
+  autoload :MediaTypeXml,   'rsty/mediatype'
   
   autoload :VerboseOutput,  'rsty/output'
   autoload :ContentOutput,  'rsty/output'

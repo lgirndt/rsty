@@ -3,36 +3,11 @@
 #
 
 require 'rest-client'
-require 'json'
 require 'uri/common'
 
 require 'rsty/output'
 
-require "rexml/document"
-include REXML
-
 module Rsty
-class MediaTypeJson
-  def accept()
-    return 'application/json'
-  end
-
-  def pretty_print(content)
-    data = JSON.parse(content)
-    return JSON.pretty_generate(data)
-  end
-end
-
-class MediaTypeXml
-  def accept()
-    return 'application/xml'
-  end
-
-  def pretty_print(content)
-    return content
-  end
-end
-
 class ApiClient
 
   def initialize(config,mediaType = MediaTypeJson.new)
