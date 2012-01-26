@@ -28,7 +28,7 @@ Parameters are simply provided as key=value arguments. rsty handles POST
 parameters and query parameters transparently.
 
 <pre>
-rsty POST /book orderId=345 customer=me
+rsty POST /products orderId=345 customer=me
 </pre>
 
 ## Installation
