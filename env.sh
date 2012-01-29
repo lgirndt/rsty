@@ -16,12 +16,13 @@ function source_dir(){
 
 rvm use $RVM_RUBY
 
+RSTY_PATH=`source_dir`/.bin
 if [ ! -d "$RSTY_PATH" ]
 then
 	echo "bundle install --binstubs"
 	bundle install --binstubs=$RSTY_PATH
 fi
 
-RSTY_PATH=`source_dir`/.bin
+
 export PATH=$RSTY_PATH:$PATH
 	
