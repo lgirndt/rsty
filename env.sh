@@ -1,6 +1,7 @@
 #
 # Initializes the bash
 #
+#
 
 RVM_RUBY=1.9.3
 
